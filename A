@@ -1,0 +1,919 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Scintillate Informatics Pvt. Ltd.</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <!-- Style CSS -->
+        <link rel="stylesheet" href="css/style.css">
+        <!-- responsive css -->
+        <link rel="stylesheet" href="css/responsive.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <!-- fontawesome link -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- swiper link -->
+        <link rel="stylesheet" href="css/swiper.min.css">
+        <!-- animation css -->
+        <link rel="stylesheet" href="css/animate.css">
+        <!-- favicon -->
+        <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+        <style>
+            .footer {
+                margin-top: 0px !important;
+            }
+        </style>
+        <!-- Jquery Link -->
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
+    </head>
+    <body class="bodyover">
+        <!-- Preloader -->
+       
+        <!-- main wrapper -->
+        <div class="wrapper">
+            <div class="main-div">
+                <!-- main left sidebar -->
+                <!-- main sidebar -->
+                <div class="mainsidebar">
+                    <div class="main-logo">
+                        <a href="home.html" class="logo-a" title="">
+                            <span>
+                                <img src="img/single-logo.png" alt="">
+                            </span>
+                        </a>
+                    </div>
+                    <div class="main-nv">
+                        <a class="nv-btn">
+                            <span class="nv-1 nv-span"></span>
+                            <span class="nv-2 nv-span"></span>
+                            <span class="nv-3 nv-span"></span>
+                            <span class="text-span">Menu</span>
+                        </a>
+                    </div>
+                    <div class="main-social">
+                        <ul class="main-social-ul">
+                            <li class="main-social-li">
+                                <a target="_blank" href="https://www.facebook.com/ScintillateInformatics-874588192916481/" class="main-social-a">
+                                    <span>
+                                        <i class="fa fa-facebook"></i>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="main-social-li">
+                                <a target="_blank" href="https://twitter.com/scintillateinfo" class="main-social-a">
+                                    <span>
+                                        <i class="fa fa-twitter"></i>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="main-social-li">
+                                <a target="_blank" href="https://www.linkedin.com/company/scintillate-informatics-pvt-ltd" class="main-social-a">
+                                    <span>
+                                        <i class="fa fa-linkedin"></i>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="main-social-li">
+                                <a target="_blank" href="https://www.instagram.com/Scintillate_Informatics/" class="main-social-a">
+                                    <span>
+                                        <i class="fa fa-instagram"></i>
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- main nv content -->
+                    <div class="main-nv-content">
+                        <div class="main-nv-content-bg"></div>
+                        <!-- main nv logo -->
+                        <div class="main-nv-logo">
+                            <a href="home.html" class="">
+                                <span>
+                                    <img src="img/logo-123.png" alt="">
+                                </span>
+                            </a>
+                        </div>
+                        <!-- menu-nv-div -->
+                        <div class="menu-nv-div subclass">
+                            <ul class="menu-ul">
+                                <li class="menu-li" id="home-li">
+                                    <span class="span-a">
+                                        <a href="home.html" class="menu-a">Home</a>
+                                    </span>
+                                </li>
+                                <li class="menu-li act" id="about-li">
+                                    <span class="span-a">
+                                        <a href="about.html" class="menu-a">About</a>
+                                    </span>
+                                </li>
+                                <li class="menu-li" id="about-li">
+                                    <span class="span-a">
+                                        <a href="ourhistory.html" class="menu-a">Our History</a>
+                                    </span>
+                                </li>
+                                <li class="menu-li" id="services-li">
+                                    <span class="span-a">
+                                        <a href="services.html" class="menu-a">Services</a>
+                                    </span>
+                                </li>
+                                <li class="menu-li" id="portfolio-li">
+                                    <span class="span-a">
+                                        <a href="packages.html" class="menu-a">Packages</a>
+                                    </span>
+                                </li>
+                                <li class="menu-li">
+                                    <span class="span-a">
+                                        <a href="contact.html" class="menu-a">contact</a>
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- menu social -->
+                        <div class="menu-social">
+                            <span>SHARE:</span>
+                            <span>
+                                <ul class="menu-social-ul">
+                                    <li class="menu-social-li">
+                                        <a target="_blank" href="https://www.facebook.com/ScintillateInformatics-874588192916481/" class="menu-social-a">
+                                            <i class="fa fa-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <li class="menu-social-li">
+                                        <a target="_blank" href="https://twitter.com/scintillateinfo" class="menu-social-a">
+                                            <i class="fa fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li class="menu-social-li">
+                                        <a target="_blank" href="https://www.linkedin.com/company/scintillate-informatics-pvt-ltd" class="menu-social-a">
+                                            <i class="fa fa-linkedin"></i>
+                                        </a>
+                                    </li>
+                                    <li class="menu-social-li">
+                                        <a target="_blank" href="https://www.instagram.com/Scintillate_Informatics/" class="menu-social-a">
+                                            <i class="fa fa-instagram"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </span>
+                        </div>
+                        <!-- border-line -->
+                        <div class="menu-border-rb">
+                            <div class="border-rb">
+                                <div class="border-rb-bg"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- main nv sub div -->
+                    <div class="main-nv-content-sub"></div>
+                </div>
+                <!-- main section -->
+                <div class="main">
+                    <div class="main-section">
+                        <div class="main-section-bg">
+                            <!-- hero-section -->
+                            <section class="hero about-hero">
+                                <div class="hero-bg">
+                                    <span class="hero-line"></span>
+                                    <div class="text-rotate">
+                                        <span id="rotatestart" class="span-rotate span-class">Design / Markup</span>
+                                        <span class="span-rotate">Web Development</span>
+                                        <span class="span-rotate">E-Commerce</span>
+                                        <span class="span-rotate">Digital Marketing</span>
+                                    </div>
+                                    <div class="hero-content">
+                                        <h1 class="hero-h1">
+                                            Efficiency + Consistency = <span>Scintillate Informatics</span>
+                                        </h1>
+                                        <p class="hero-p about-hero-p">We help clients solve business problems by fusing creativity, innovation, strategy, and craft.
+                                                                                        </p>
+                                    </div>
+                                </div>
+                                <div class="hero-scroll">
+                                    <span class="scroll-span scroll-span-1"></span>
+                                    <!-- <span class="scroll-span scroll-span-2"></span> -->
+                                </div>
+                                <div class="hero-div">
+                                    <div class="swiper-container swiper-container-hero">
+                                        <div class="swiper-wrapper swiper-wrapper-hero">
+                                            <div class="swiper-slide cover-background" style="background:url(imge/img-graph.jpg)"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="hero-border-lt">
+                                    <div class="border-lt-bg"></div>
+                                </div>
+                                <div class="hero-border-rb">
+                                    <div class="border-rb-bg"></div>
+                                </div>
+                                <div class="hero-border-tr">
+                                    <div class="border-tr-bg"></div>
+                                </div>
+                                <div class="hero-border-lb">
+                                    <div class="border-lb-bg"></div>
+                                </div>
+                                <div class="hero-right"></div>
+                                <div class="hero-top"></div>
+                                <div class="hero-bottom"></div>
+                                <div class="hero-left"></div>
+                            </section>
+                            <!-- hero-below -->
+                            <div class="hero-below">
+                                <!-- img-box div  width:30%-->
+                                <div class="img-box-div" id="about-img-box">
+                                    <div class="img-box about-shan" style="background: url(imge/home-about-bg.jpg);">
+                                        <div class="img-box-h2">
+                                            <h2 class="abc">About Us
+                                            </h2>
+                                            <span class="abc-span"></span>
+                                            <div class="line"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- content-box width:70% -->
+                                <div class="content-box-div">
+                                    <div class="boom123">
+                                        <!-- about section -->
+                                        <section class=" about-first-div scroll-div scroll-down-section about-scroll-top-div">
+                                            <div class="section-padding about-bg">
+                                                <div class="container">
+                                                    <div class="section-header">
+                                                        <div class="row">
+                                                            <div class="col-lg-7 col-md-8 bg">
+                                                                <div class="about-header main-header-div">
+                                                                    <h2 class="main-header about-h2  ">About Us
+                                                            </h2>
+                                                                    <div class="h2-line"></div>
+                                                                </div>
+                                                                <p class="about-p">Scintillate Informatics- We Create Online Success Stories!</p>
+                                                                <hr>
+                                                            </div>
+                                                            <div class="col-lg-5 col-md-4  ">
+                                                                <div class="number-div">01.</div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="about-main">
+                                                            <div class="row">
+                                                                <div class="col-lg-5 col-md-5   align-self-center">
+                                                                    <div class="about-img-div">
+                                                                        <img src="imge/img-chess.jpg" alt="">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-7 col-lg-7  ">
+                                                                    <div class="about-content-div">
+                                                                        <span class="span-header">Don’t worry, you’re in safe hands.</span>
+                                                                        <div class="about-content">
+                                                                            <div class="about-sub">
+                                                                                <h3 class="sub-header">
+                                                                                    WHO WE ARE? 
+
+                                                                        <div class="span-line-sub"></div>
+                                                                                </h3>
+                                                                            </div>
+                                                                            <div class="about-sub-p">
+                                                                                <p>
+                                                                                    We are Scintillate Informatics, born out of a simple thought - empowering your  business by leveraging technology that accelerates your growth to reach your  business goals. We are obsessed with creativity and it reflects in whatever we  do - be it web design or app development.<br>
+                                                                                    We are a creative & innovative IT consulting, services and support company,  offering our excellence in web design, app development and digital marketing.  If your business craves for any IT solution, you just name it and we have it.<br>Scintillate has got technology solutions powerful enough to transform your business to an established brand. We are fully loaded with the experience that  can help your brand surpass any hurdle in reaching your target market online.
+                                                                                </p>
+                                                                            </div>
+                                                                            <!--  <div class="about-sub-list">
+                                                                        <ul class="sub-ul">
+                                                                            <li class="sub-li">Leverage agile frameworks to provide a robust synopsis.
+                                                                                <span class="libefore">
+                                                                                    <img src="images/liststyle.jpg" alt="">
+                                                                                </span>
+                                                                            </li>
+                                                                            <li class="sub-li">Iterative approaches to corporate strategy foster.
+                                                                                <span class="libefore">
+                                                                                    <img src="images/liststyle.jpg" alt="">
+                                                                                </span>
+                                                                            </li>
+                                                                            <li class="sub-li">Bring to the table win-win survival strategies.
+                                                                                <span class="libefore">
+                                                                                    <img src="images/liststyle.jpg" alt="">
+                                                                                </span>
+                                                                            </li>
+                                                                            <li class="sub-li">Scalable gun control breakthroughs social movement.
+                                                                                <span class="libefore">
+                                                                                    <img src="images/liststyle.jpg" alt="">
+                                                                                </span>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div> -->
+                                                                            <div class="about-btn hero-btn-div">
+                                                                                <a href="contact.html" class="about-btn">Contact Us</a>
+                                                                                <span class="hero-span"></span>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- counter -->
+                                            <div class="counter">
+                                                <div class="counter-bg">
+                                                    <div class="container">
+                                                        <div class="row">
+                                                            <div class="col-lg-3 wow fadeInUp text-center">
+                                                                <div class="counter-div">
+                                                                    <span class="count">1000</span>
+                                                                    <span class="count-plus">+</span>
+                                                                    <br>
+                                                                    <span class="span-count">Duda projects</span>
+                                                                </div>
+                                                                <div class="counter-line"></div>
+                                                            </div>
+                                                            <div class="col-lg-3 wow fadeInUp text-center">
+                                                                <div class="counter-div">
+                                                                    <span class="count">150</span>
+                                                                    <span class="count-plus">+</span>
+                                                                    <br>
+                                                                    <span class="span-count">Custom projects</span>
+                                                                </div>
+                                                                <div class="counter-line"></div>
+                                                            </div>
+                                                            <div class="col-lg-3 wow fadeInUp text-center">
+                                                                <div class="counter-div">
+                                                                    <span class="count">100</span>
+                                                                    <span class="count-plus">+</span>
+                                                                    <br>
+                                                                    <span class="span-count">eCommerce Projects</span>
+                                                                </div>
+                                                                <div class="counter-line"></div>
+                                                            </div>
+                                                            <div class="col-lg-3 wow fadeInUp text-center">
+                                                                <div class="counter-div">
+                                                                    <span class="count">20</span>
+                                                                    <span class="count-plus">+</span>
+                                                                    <br>
+                                                                    <span class="span-count">happy customers</span>
+                                                                </div>
+                                                                <div class="counter-line"></div>
+                                                                <div class="counter-line-right"></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </section>
+                                        <!-- our commitment -->
+                                        <section class="commit scroll-div">
+                                            <div class="commit-bg section-padding">
+                                                <div class="container">
+                                                    <div class="commit-header">
+                                                        <div class="row">
+                                                            <div class="col-lg-7 col-md-8 bg">
+                                                                <div class="about-header main-header-div">
+                                                                    <h2 class="main-header about-h2  ">Our Commitment
+                                                            </h2>
+                                                                    <div class="h2-line"></div>
+                                                                </div>
+                                                                <p class="about-p">We follow stringent ethical online practices which adhere with the Google terms & policies. Rest assured your business is in safe hands. </p>
+                                                                <hr>
+                                                            </div>
+                                                            <div class="col-lg-5 col-md-4  ">
+                                                                <div class="number-div">02.</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="commit-main">
+                                                        <div class="row">
+                                                            <div class="col-lg-6">
+                                                                <div class="commit-div">
+                                                                    <div class="commit-p-div">
+                                                                        <p>Being a leader in IT services, we are committed to eliminate hassles out of your  web/mobile app development projects. We value your time and money, so  offering you technological edge is our prime concern every time. We always  ensure to exceed your expectations and offer far more than what you have asked for. We take care of your business performance online with our growth redefining strategies. Leave your brand performance on our shoulders as we  know what it takes to engage, retain and convert customers online.</p>
+                                                                        <p>Working on a web/app development project could be exhausting, but Scintillate is  an exception to it. At every step of the project, our skilled hands would be there to make things easier. Consider yourself in safe hands which are committed to accomplish your online goals. Let’s address your worries!</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-6 align-self-center">
+                                                                <div class="commit-img-div">
+                                                                    <img src="img/commit-bg.png" alt="">
+                                                                    <div class="commit-img-content">
+                                                                        <span>WE ARE COMMITTED TO OUR  GOALS AND POLICY</span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </section>
+                                        <!-- Our vision -->
+                                        <section class="vision scroll-div">
+                                            <div class="vision-bg section-padding">
+                                                <div class="container">
+                                                    <div class="vision-header">
+                                                        <div class="row">
+                                                            <div class="col-lg-7 col-md-8 bg">
+                                                                <div class="about-header main-header-div">
+                                                                    <h2 class="main-header about-h2  ">Our Vision
+                                                                </h2>
+                                                                    <div class="h2-line"></div>
+                                                                </div>
+                                                                <p class="about-p">Our vision is to empower our clients through technology.</p>
+                                                                <hr>
+                                                            </div>
+                                                            <div class="col-lg-5 col-md-4  ">
+                                                                <div class="number-div">03.</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="vision-main">
+                                                        <div class="row">
+                                                            <div class="col-lg-6 col-md-6 align-self-center">
+                                                                <div class="vision-img-div">
+                                                                    <img src="img/about/vision-bg.png" alt="">
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-6 col-md-6 align-self-center">
+                                                                <div class="vision-div">
+                                                                    <div class="vision-header-div">
+                                                                        <h3>Stay together to shape future.</h3>
+                                                                    </div>
+                                                                    <div class="vision-content-div">
+                                                                        <p>Getting people to know about us is the one thing that we focus on at the initial step. Our vision is to empower our clients through technology. We promise to connect you with your customers by understanding your vision, and giving you a voice in the digital world.</p>
+                                                                    </div>
+                                                                    <div class="vision-sublist">
+                                                                        <ul class="sub-ul">
+                                                                            <li class="sub-li">
+                                                                                It all starts over coffee with a pen and paper. We sit down with you to understand your vision, what you want to achieve, and what makes you unique.
+                                                                            
+                                                                                <span class="libefore">
+                                                                                    <img src="images/liststyle.jpg" alt="">
+                                                                                </span>
+                                                                            </li>
+                                                                            <li class="sub-li">
+                                                                                From there we determine how to narrate your story across the digital world, and provide the digital tools and technology to ensure your success.
+                                                                            
+                                                                                <span class="libefore">
+                                                                                    <img src="images/liststyle.jpg" alt="">
+                                                                                </span>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </section>
+                                        <!-- our management -->
+                                        <section class="ourmanage scroll-div">
+                                            <div class="ourmanage-bg section-padding">
+                                                <div class="container">
+                                                    <div class="ourmanage-header">
+                                                        <div class="row">
+                                                            <div class="col-lg-7 col-md-8 bg">
+                                                                <div class="about-header main-header-div">
+                                                                    <h2 class="main-header about-h2  ">Our Management
+                                                            </h2>
+                                                                    <div class="h2-line"></div>
+                                                                </div>
+                                                                <p class="about-p">We led by one of India's most visionary Leader who is supported by a talented and experienced management team.</p>
+                                                                <hr>
+                                                            </div>
+                                                            <div class="col-lg-5 col-md-4  ">
+                                                                <div class="number-div">04.</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ourmanage-main">
+                                                        <!-- jakka pranav -->
+                                                        <div class="ceo-div jakka-div">
+                                                            <div class="row">
+                                                                <div class="col-lg-12">
+                                                                    <div class="ceo-header">
+                                                                        <h2>Jakka Pranav Swaroop Naidu</h2>
+                                                                    </div>
+                                                                    <div class="ceo-sub-header">
+                                                                        <p>Founder and CEO</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-md-12 ceo-img-hide">
+                                                                    <div class="ceo-img-div">
+                                                                        <img src="img/about/pranav2.jpg" alt="">
+                                                                        <div class="ceo-img-content-div">
+                                                                            <h4>Jakka Pranav Swaroop Naidu</h4>
+                                                                            <span class="ceo-span">Founder and CEO</span>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-lg-12">
+                                                                    <div class="ceo-content-div">
+                                                                        <p>
+                                                                            Jakka Pranav Naidu, The Founder & the CEO of Scintillate Informatics Pvt. Ltd and the leader of the executive team. He is a 28 years old young and dynamic leader with a vision of leading the digital industry. With this vision, He along with his childhood friend established Scintillate Informatics in the year 2015. With an extensive track record in the digital industry, he signified a tagline “ <strong>Remarkably Delivers the Best</strong>
+                                                                            ”.
+                                                                        </p>
+                                                                        <p>Though in such a young age, Jakka has tremendous experience in the field of Sales, Digital Marketing, Marketing Management, Market Planning, and Market Strategy. He always believes in uniqueness of each work he does and that’s made the youngest & successful Entrepreneur of Scintillate Informatics Pvt. Ltd... His knowledge of the business development and his understanding of behavioral patterns have been instrumental in developing the Scintillate System over the course of the years.</p>
+                                                                        <p>
+                                                                            Jakka has wons several awards and recognitions in the span of two years of starting Scintillate Informatics pvt. Ltd... Some of them are " <strong>Young Entrepreneur of India</strong>
+                                                                            " and " <strong>Top 500 CEO's of India</strong>
+                                                                            ". His passion of striking goals all the times motivates the team members and strive them to deliver quality output every time.
+                                                                        </p>
+                                                                        <p>In terms of managing the team and organization, He always counts himself as a team member and be ready whenever there is a need to produce.</p>
+                                                                        <p>Jakka always says that, “ I have met many business leaders and professionals with great ideas and passion. However, good plans need to be executed, and it is not easy to know which way to choose, and often you get stuck on tricky issues and considerations. To tackle this, you need to be more patient and concentrate what the best you can generate with in the given limitations. If you understood this, the success is yours.”</p>
+                                                                        <p>Overall, Jakka is an energetic and highly motivated team member as well as the Founder & the CEO of Scintillate Informatics Pvt. Ltd.</p>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-lg-12">
+                                                                    <div class="ceo-jakka-quote">
+                                                                        <p>
+                                                                            <span class="ceo-left">
+                                                                                <i class="fa fa-quote-left"></i>
+                                                                            </span>
+                                                                            <span class="ceo-quote-content">Working hard for something we don’t care about is called stress Working hard for something we love is called passion. </span>
+                                                                            <span class="ceo-right">
+                                                                                <i class="fa fa-quote-right"></i>
+                                                                            </span>
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-lg-8">
+                                                                    <div class="ceo-achievements">
+                                                                        <div class="ceo-achieve-header">
+                                                                            <h4>Awards</h4>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-lg-10">
+                                                                    <div class="ceo-awards-list">
+                                                                        <ul class="ceo-ul">
+                                                                            <li class="ceo-li">
+                                                                                In 2020, Mr. Pranav Swaroop Naidu was conferred with the ‘ <a target="_blank">Young Entrepreneur of India</a>
+                                                                                award.
+                                                                    
+                                                                            </li>
+                                                                            <li class="ceo-li">
+                                                                                In 2021, Mr. Pranav Swaroop Naidu was honoured with the ‘ <a target="_blank">Top 500 CEO's of India</a>
+                                                                                ’ award.
+                                                                    
+                                                                            </li>
+                                                                            <li class="ceo-li">Nominated for The 20 Fastest Growing Companies in India
+                                                                    </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!-- GVS Chandra -->
+                                                        <div class="ceo-div gvs-div">
+                                                            <div class="row">
+                                                                <div class="col-lg-12">
+                                                                    <div class="ceo-header">
+                                                                        <h2>Gattu Venkata Sai Chandra</h2>
+                                                                    </div>
+                                                                    <div class="ceo-sub-header">
+                                                                        <p>Co-Founder and COO</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-md-12 ceo-img-hide">
+                                                                    <div class="ceo-img-div">
+                                                                        <img src="img/about/gvs2-bg.jpg" alt="">
+                                                                        <div class="ceo-img-content-div">
+                                                                            <h4>Gattu Venkata Sai Chandra</h4>
+                                                                            <span class="ceo-span">Co-Founder and COO</span>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-lg-12">
+                                                                    <div class="ceo-content-div">
+                                                                        <p>Gattu Venkata Sai Chandra (GVS, that's what we call him) is the Co-founder and COO of Scintillate Informatics Pvt. Ltd. He take care of business management and enjoy creating and nurturing new partnerships and growing businesses. He has an experience of taking new products to market and working with international teams and partners. He has strong interest in sales, digital marketing, and leaveraging new technology.</p>
+                                                                        <p>GVS has interacted with different industries including food service, retail, advertising, radio, automobile, and administrative services. This gives him a broad understanding of how different types of people approach projects. Using this experience, he use innovate new products and services at Scintillate which helps the business owners and clients to improve their online presence.</p>
+                                                                        <p>Along with Jakka, GVS started Scintillate with a dream of leading digital industry. He always strike for the best and live to fulfill all his dreams. GVS is a very ambitious leader and he is available everytime to motivate the team to shine like a stars and produce the light in the dark night.</p>
+                                                                        <p>
+                                                                            GVS has learned to take pride in his unique approach to sales: <strong>"A sale is not something you pursue; its what happens to you while you are immersed in serving your customer."</strong>
+                                                                        </p>
+                                                                    </div>
+                                                                    <div class="ceo-awards"></div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="gvs-awards-div">
+                                                                <div class="row">
+                                                                    <div class="col-lg-8">
+                                                                        <div class="ceo-achievements">
+                                                                            <div class="ceo-achieve-header">
+                                                                                <h4>Awards</h4>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="row">
+                                                                    <div class="col-lg-10">
+                                                                        <div class="ceo-awards-list">
+                                                                            <ul class="ceo-ul">
+                                                                                <li class="ceo-li">
+                                                                                    Honored with ‘ <a>Most Promising Startups</a>
+                                                                                    ’ award 2020-2021. 
+                                                                        
+                                                                                </li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!-- Mahendra Dev -->
+                                                        <div class="ceo-div mahendra-div">
+                                                            <div class="row">
+                                                                <div class="col-lg-12">
+                                                                    <div class="ceo-header">
+                                                                        <h2>Mahendra Dev</h2>
+                                                                    </div>
+                                                                    <div class="ceo-sub-header">
+                                                                        <p>Director of Business Operations</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-md-12 ceo-img-hide">
+                                                                    <div class="ceo-img-div">
+                                                                        <img src="img/about/mahendra-bg.jpg" alt="">
+                                                                        <div class="ceo-img-content-div">
+                                                                            <h4>Mahendra Dev</h4>
+                                                                            <span class="ceo-span">Director of Business Operations</span>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-lg-12">
+                                                                    <div class="ceo-content-div">
+                                                                        <p>Mahendra Dev love for website design & development started in the year 1993, when at the age of 18 he learned HTML and secured his first dot-com. Mahendra spent his late teenage years working on freelance website projects, and in a small company he held a part-time position as Jr. Webmaster to assist his seniors in order to learn and enhance his creative skills.</p>
+                                                                        <p>Mahendra graduated from IIT, Delhi in the year 2004 and holds a Bachelors of Arts in Commerce and Arts, with a secondary concentration in Cricket as sports. He Joined Scintillate Informatics in the year 2019 to drive his passion for website development. Mahendra oversees business operations, and is passionate about helping the business owner and clients improve visibility with their online presence.</p>
+                                                                        <p>Mahendra regularly speaks with the business owner’s ant the clients in order to make sure the quality and projects requirements are met with atmost satisfaction.</p>
+                                                                        <p>
+                                                                            Mahendra believes in a mantra, " <strong>It takes months to find a customer and seconds to lose one. Customer services shouldn’t be just a department it should be the entire company.</strong>
+                                                                            ”
+                                                                        </p>
+                                                                        <p>At Scintillate, Mahendra focuses on building a solid foundation with important discovery questions to get to know his customers’ business needs. This extra attention to detail helps bridge the gap from our customer’s business functions to provide the most effective solution within Scintillates expertise. He enjoys getting to know business owners and helping them with creative strategy to portray their business in the best light online.</p>
+                                                                    </div>
+                                                                    <div class="ceo-awards"></div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </section>
+                                        <!-- client -->
+                                        <section id="clients" class="client scroll-div">
+                                            <div class="client-bg section-padding">
+                                                <div class="container">
+                                                    <div class="row">
+                                                        <div class="col-lg-7   col-md-8 bg">
+                                                            <div class="about-header main-header-div">
+                                                                <h2 class="main-header about-h2">Awards & Recognition's
+                                                    </h2>
+                                                                <div class="h2-line"></div>
+                                                            </div>
+                                                            <p class="about-p">Scintillate Informatics is known for their efforts and recognized for their talent.</p>
+                                                            <hr>
+                                                        </div>
+                                                        <div class="col-lg-5   col-md-4">
+                                                            <div class="number-div">06.</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="client-div">
+                                                        <!-- deskmode -->
+                                                        <div class="swiper-container swiper-container-client client-desk">
+                                                            <div class="swiper-wrapper">
+                                                                <div class="swiper-slide cover-background" style="background: url(imge/awards/duda-1.jpg);"></div>
+                                                                <div class="swiper-slide cover-background" style="background: url(imge/awards/duda-2.jpg);"></div>
+                                                                <div class="swiper-slide cover-background" style="background: url(imge/awards/ceo-2.jpg);"></div>
+                                                                <div class="swiper-slide cover-background" style="background: url(imge/awards/pranav-yea.png);"></div>
+                                                                <div class="swiper-slide cover-background" style="background: url(imge/awards/duda-3.png);"></div>
+                                                                <div class="swiper-slide cover-background" style="background: url(imge/awards/gvs-award.png);"></div>
+                                                            </div>
+                                                            <!-- pagination -->
+                                                            <div class="swiper-pagination swiper-pagination-client"></div>
+                                                            <!-- navigation -->
+                                                            <div class="client-nav">
+                                                                <div class="client-prev lr">
+                                                                    <i class="fa fa-chevron-left"></i>
+                                                                </div>
+                                                                <div class="client-next lr">
+                                                                    <i class="fa fa-chevron-right"></i>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!-- mobmode -->
+                                                        <div class="swiper-container swiper-container-client client-mob">
+                                                            <div class="swiper-wrapper">
+                                                                <div class="swiper-slide cover-background" style="background: url(imge/awards/duda-1.jpg);"></div>
+                                                                <div class="swiper-slide cover-background" style="background: url(imge/awards/duda-2.jpg);"></div>
+                                                                <div class="swiper-slide cover-background" style="background: url(imge/awards/ceo-2.jpg);"></div>
+                                                                <div class="swiper-slide cover-background" style="background: url(imge/awards/pranav-yea.png);"></div>
+                                                                <div class="swiper-slide cover-background" style="background: url(imge/awards/duda-3.png);"></div>
+                                                                <div class="swiper-slide cover-background" style="background: url(imge/awards/gvs-award.png);"></div>
+                                                            </div>
+                                                            <!-- pagination -->
+                                                            <div class="swiper-pagination swiper-pagination-client"></div>
+                                                            <!-- navigation -->
+                                                            <div class="client-nav">
+                                                                <div class="client-prev lr">
+                                                                    <i class="fa fa-chevron-left"></i>
+                                                                </div>
+                                                                <div class="client-next lr">
+                                                                    <i class="fa fa-chevron-right"></i>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </section>
+                                    </div>
+                                    <!-- footer -->
+                                    <section class="section-padding"></section>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- footer -->
+                <section class="footer">
+                    <div class="footer-bg">
+                        <div class="container">
+                            <div class="footer-lines">
+                                <div class="lines"></div>
+                                <div class="lines"></div>
+                                <div class="lines"></div>
+                                <div class="lines"></div>
+                                <div class="lines"></div>
+                            </div>
+                            <div class="footer-inner">
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-6">
+                                        <div class="footer-div">
+                                            <div class="footer-header mob-h">
+                                                <h5>
+                                                    <span>001.</span>
+                                                    Our Location
+                                                </h5>
+                                            </div>
+                                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15224.767842720014!2d78.391646!3d17.450524!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4e25fa4e917f7c3c!2sScintillate%20Informatics%20Pvt.%20Ltd.!5e0!3m2!1sen!2sin!4v1616446934731!5m2!1sen!2sin" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6">
+                                        <div class="footer-div">
+                                            <div class="footer-header mob-h">
+                                                <h5>
+                                                    <span>002.</span>
+                                                    Subscribe / contact
+                                                </h5>
+                                            </div>
+                                            <p class="p">Want to be notified when we launch a new template or an udpate. Just sign up and we'll send you a notification by email.
+                                                                </p>
+                                            <div class="input-div">
+                                                <form action="" method="POST" class="form-note" id="contactform-footer">
+                                                    <div class="footer-subscribe-input-div">
+                                                        <div class="row">
+                                                            <div class="col-lg-8 no-pad">
+                                                                <input type="email" name="femail" class="femail" placeholder="Enter your email" required>
+                                                            </div>
+                                                            <div class="col-lg-4 no-pad">
+                                                                <button type="submit" name="submit" class="footer-btn">
+                                                                    <span>
+                                                                        <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                                                                    </span>
+                                                                    Subscribe
+                                                                </button>
+                                                            </div>
+                                                        </div>
+                                                        <div class="footer-success-div">
+                                                            <div class="row">
+                                                                <div class="col-lg-12">
+                                                                    <span class="form-msg"></span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                            <div class="footer-social">
+                                                <ul class="footer-ul">
+                                                    <li class="foote-li">
+                                                        <a href="tel:+91 40 420 21481" class="footer-a">
+                                                            <span class="span-12">
+                                                                <i class="fa fa-phone"></i>
+                                                            </span>
+                                                            <span class="span-123">Phone:</span>
+                                                            +91 40 420 21481
+                                                                            
+                                                        </a>
+                                                    </li>
+                                                    <li class="foote-li">
+                                                        <a href="/cdn-cgi/l/email-protection#167f7870795665757f78627f7a7a7762736273757e3875797b" class="footer-a">
+                                                            <span class="span-121">
+                                                                <i class="fa fa-envelope"></i>
+                                                            </span>
+                                                            <span class="span-123">Email:</span>
+                                                            <span class="__cf_email__" data-cfemail="0c65626a634c7f6f6562786560606d786978696f64226f6361">[email &#160;protected]</span>
+                                                        </a>
+                                                    </li>
+                                                    <li class="foote-li">
+                                                        <a href="https://g.page/scintillateinformatics?share" target="_blank" class="footer-a">
+                                                            <span class="span-122">
+                                                                <i class="fa fa-map-marker"></i>
+                                                            </span>
+                                                            <span class="span-123">ADDRESS:</span>
+                                                            3rd Floor, PS Residency, Plot No.9, Ayyappa Society, Jaihind Enclave, Madhapur, Hyderabad, Telangana, India, 500081
+                                                                            
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="copyrights">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-lg-10 col-md-10 align-self-center">
+                                            <span class="copy">
+                                                © <span>Scintillate Informatics Pvt Ltd</span>
+                                                2021 / ALL RIGHTS RESERVED
+                                            </span>
+                                        </div>
+                                        <!--    <div class="col-lg-5 col-md-5">
+                                                                <span class="copy">Fulfillment partner of The Camel.Co</span>
+                                                                <span class="footer-copy-img">
+                                                                    <img src="imge/camel-bg.webp" alt="">
+                                                                </span>
+                                                            </div> -->
+                                        <div class="col-lg-2 col-md-2 scroll-top">
+                                            <a class="top">To Top</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <!-- Optional JavaScript -->
+        <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                $('#contactform-footer').submit(function(e) {
+                    e.preventDefault();
+                    var femail = $('.femail').val();
+                    if (femail == "") {
+                        $('.form-msg').fadeIn(500).html('All fields are mandatory');
+                    } else {
+                        $.ajax({
+                            type: "POST",
+                            url: 'footer-contact.php',
+                            data: "femail=" + femail,
+                            success: function(data) {
+                                $('.form-msg').fadeIn(500).html(data);
+                            },
+                            error: function(data) {
+                                $('.form-msg').fadeIn(500).html(data);
+                            }
+                        });
+                        setTimeout(function() {
+                            $('.form-msg').fadeOut();
+                        }, 20000);
+                        setTimeout(function() {
+                            $('.femail').val('');
+                        }, 3000);
+                    }
+                });
+            });
+        </script>
+        <script src="js/about-menu.js"></script>
+        <script src="js/img-boxadd-div.js"></script>
+        <script src="js/ceo.js"></script>
+        <script src="js/click.js"></script>
+        <script src="js/swiper.min.js"></script>
+        <script src="js/sliders.js"></script>
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="js/pre.js"></script>
+        <script src="js/submenu.js"></script>
+        <script src="js/textrotate.js"></script>
+        <script src="js/counter.js"></script>
+        <script src="js/nav.js"></script>
+        <script src="js/nac-click.js"></script>
+        <script src="js/main-menu.js"></script>
+        <script type="text/javascript" src="js/wow.min.js"></script>
+        <script>
+            new WOW().init();
+        </script>
+    </body>
+</html>
