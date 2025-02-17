@@ -432,7 +432,51 @@
               </div>
           </div>
               <!-- Optional JavaScript -->
-              
+              <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+                $(document).ready(function(){
+           $('#contactform-footer').submit(function(e){
+               e.preventDefault();
+               var femail = $('.femail').val();
+               if(femail == "") {
+                   $('.form-msg-1').fadeIn(500).html('All fields are mandatory');
+               }
+               else{
+                   $.ajax({
+                       type : "POST",
+                       url : 'footer-contact.php',
+                       data : "femail="+femail,
+                       success : function(data) {
+                           $('.form-msg-1').fadeIn(500).html(data);
+                       },
+                       error : function(data) {
+                           $('.form-msg-1').fadeIn(500).html(data);
+                       }
+                   });
+                   setTimeout(function(){
+                               $('.form-msg-1').fadeOut();
+                           },20000);
+                   setTimeout(function(){
+                       $('.femail').val('');
+                   },3000);
+               }
+           });
+       });
+            </script>
+              <script>
+                $(document).ready(function(){
+                    $('.contact-label').click(function(){
+                            $(this).find('.placeholder-span').addClass('place-span');
+                    }); 
+                    $(window).on('scroll',function(){
+                        if($(window).scrollTop() >= $('.iframe-bg').offset().top) {
+                            $('.form-div').addClass('form-div-1');
+                        }
+                        else{
+                            $('.form-div').removeClass('form-div-1');
+                        }
+                    });
+                });
+            </script>
     <script src="js/contact.js"></script>    
     <script src="js/other-page.js"></script>              
     <script src="js/click.js"></script>
