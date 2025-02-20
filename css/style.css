@@ -212,6 +212,35 @@ body{
 
 
 
+.blog-container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.blog-title {
+    font-size: 28px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.blog-content {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555;
+}
+.blog-content strong {
+    color: #222;
+}
+.blog-footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 16px;
+    color: #777;
+}
+
 
 
 
