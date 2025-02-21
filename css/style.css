@@ -122,9 +122,36 @@ body{
     object-fit: cover;
 }
 
+
+
+
+
+
 .asset-box h3 {
     color: #D32F2F;
 }
+
+@media (max-width: 768px) {
+    .assets .asset-box {
+      width: 45%; 
+    }
+  
+    .assets .asset-box img {
+      height: 120px;
+    }
+  }
+  
+
+  @media (max-width: 500px) {
+    .assets .asset-box {
+      width: 100%; 
+    }
+  
+    .assets .asset-box img {
+      height: 100px; 
+    }
+  }
+
 
 .what-we-do ul {
     list-style-type: none;
