@@ -739,12 +739,28 @@ a:hover{
     height: 100%;
     z-index: 3 !important;
 }
+
+
+
 .swiper-container-hero .swiper-slide{
     width: 100%;
     height: 100vh;
     min-height: 950px;
     position: relative;
 }
+
+
+
+
+
+@media (max-width: 768px) {
+    .swiper-container-hero .swiper-slide.background-mob {
+      background-size: contain; /* Adjust image size for mobile */
+      background-position: top; /* Position image at the top */
+      height: 50vh; /* Half screen height for mobile */
+    }
+  }
+
 .swiper-container-hero .swiper-slide::before{
     position: absolute;
     top: 0;
@@ -760,6 +776,9 @@ a:hover{
     background-size: cover !important;
     background-repeat: no-repeat !important;
 }
+
+
+
 .hero-h1{
     font-size: 85px;
     font-weight: 900;
